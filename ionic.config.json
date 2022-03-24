@@ -1,0 +1,7 @@
+{
+  "name": "WedAppClickk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
