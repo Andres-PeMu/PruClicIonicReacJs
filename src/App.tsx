@@ -1,11 +1,5 @@
-import { Redirect, Route } from 'react-router-dom';
-import {
-  IonApp,
-  IonRouterOutlet,
-  IonTabs,
-  setupIonicReact
-} from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
+import {setupIonicReact} from '@ionic/react';
+
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -24,17 +18,15 @@ import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 
 import Navbar from './components/Navbar';
+import Api from './components/Api'
+
 
 setupIonicReact();
-
-fetch("https://swapi.dev/api/people/1")
-  .then(responseApi => responseApi.json())
-  .then(dataApi => console.log(dataApi))
-  .catch(error => console.log(error));
-  
-
 const App: React.FC = () => (
+  <>
   <Navbar />
+  <Api />
+  </>
 );
 
 export default App;
