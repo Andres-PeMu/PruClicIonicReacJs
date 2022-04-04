@@ -12,5 +12,4 @@ ReactDOM.render(
 );
 
 serviceWorkerRegistration.unregister();
-
 reportWebVitals();

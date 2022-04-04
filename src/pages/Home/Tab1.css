@@ -1,0 +1,90 @@
+.card-container {
+    overflow: scroll;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.5s;
+    animation: ease-in;
+    background-color: aliceblue;
+}
+
+.ion-card{
+  background-color: #0d0c01;
+}
+
+.rem{
+  width: 30rem;
+}
+
+.card-title{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+
+
+/* Css people */
+.ion-button-people{
+  width: 120px;
+  background-color: #35363a;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.ion-button-people:hover,
+.ion-button-people:focus{
+  border: 2px solid;
+  margin: 1px;
+}
+
+.card-detail{
+  margin: 0;
+  padding: 0;
+}
+
+.card-people-detail{
+  display: flex;
+}
+
+.people-name{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-people-detail{
+  margin: auto auto;
+  text-align: center;
+}
+
+.card-detail{
+  background-color: white;
+  color: #35363a;
+  border-style: solid;
+  border-color: #35363a;
+  border-width: 4px;
+}
+
+.card-header-detail{
+  background: #35363a;
+  width: 100%;
+  margin: 0 0 0 0;
+  text-align: left;
+}
+
+.card-title-detail{
+  color: white;
+  size: bold;
+  font-weight: 700;
+}
+
+.p-detail{
+  padding: 1rem;
+  text-align: left;
+}
+
+.button-detail{
+  background: #35363a;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+}
